@@ -5,42 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase 26 - Bootstrap</title>
+
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">MATHIAS CURBELO</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="portfolio">PORTFOLIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">SOBRE MÍ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACTO</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MATHIAS CURBELO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="portfolio">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SOBRE MÍ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACTO</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <img src="img/logo.png" alt="Logo-Mathias">
-        <h1>MATHIAS CURBELO</h1>
-        <div class="presentacion">
-            <hr>
-            <i class="bi bi-star-fill"></i>
-            <hr>
         </div>
+    </nav>
+    <header>
+        <article class="presentacion">
+            <img src="img/logo.png" alt="Logo-Mathias">
+            <h1>MATHIAS CURBELO</h1>
+            <div class="decoration">
+                <span>
+                <i class="bi bi-star-fill"></i>
+                <span>
+            </div>
+            <p>Desarrollador Web Frontend Jr. | Estudiante de Full Stack</p>
+        </article>
     </header>
     <main>
         <section class="portfolio">

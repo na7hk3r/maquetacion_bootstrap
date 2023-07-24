@@ -1,39 +1,76 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
-header,
-.about-me{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    align-items: center;
     background-color: #838383;
-    height: 100vh;
     display: flex;
     flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    padding: 5em;
+    width: 100%;
 }
 
-header img {
-    height: 50vh;
-    margin: auto;
-}
-
-header h1{
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
 }
 
 .presentacion{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    flex-direction: column;
 }
 
-.presentacion hr {
-    width: 40%;
-    padding: 10px;
+.presentacion img {
+    height: 10rem;
+    width: auto;
+}
+
+.presentacion h1{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.decoration{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+
+.decoration span{
+    width: 30%;
+    text-align: center;
+}
+
+.decoration i{
+    font-size: 14px;
+    text-align: center;
 }
 
 .portfolio,
 .contact{
-    height:100vh;
+    height: 100vh;
+}
+
+.about-me{
+    background-color: #838383;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
